@@ -1,2 +1,2 @@
-# UNM-Group
-This will be our beganing of the group projects 
+# UNM-GROUP
+Engineering & Business Group
