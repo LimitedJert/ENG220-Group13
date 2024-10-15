@@ -11,11 +11,15 @@ import streamlit as st
 
 # Your information
 name = "Jerry Lu"
-favorite_activity = "Games"  # Corrected variable name
+favorite_activity = "Games"
 degree = "Computer Science"
 
-# Title of the app with your information
+# Title of the app
 st.title("Welcome to My Streamlit App!")
-st.write(f"**Name**: {name}")
-st.write(f"**Favorite activity**: {favorite_activity}")  # Corrected variable usage
-st.write(f"**Degree**: {degree}")
+
+# Display the information as a list
+st.write("### About Me:")
+st.write(f"- **Name**: {name}")
+st.write(f"- **Favorite activity**: {favorite_activity}")
+st.write(f"- **Degree**: {degree}")
+
