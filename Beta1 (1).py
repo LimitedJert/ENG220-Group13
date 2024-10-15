@@ -23,3 +23,6 @@ st.write(f"- **Name**: {name}")
 st.write(f"- **Favorite activity**: {favorite_activity}")
 st.write(f"- **Degree**: {degree}")
 
+# Add an image
+image_url = "https://via.placeholder.com/150"  # Replace with your own image URL
+st.image(image_url, caption="A cool image", use_column_width=True)
