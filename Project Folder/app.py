@@ -1,7 +1,3 @@
-Project Code Streamlit
-Need to create 2 files:
-
-1. Streamlit Python Code in .py extension
 
 import streamlit as st
 import pandas as pd
@@ -70,12 +66,3 @@ if uploaded_file is not None:
 else:
     st.info("Please upload a CSV file to get started.") 
 
-2. Requirements text file: Should have the text document with the following matter.
-
-matplotlib
-
-pandas
-
-streamlit
-
-This topic is closed for comments.
